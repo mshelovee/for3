@@ -20,6 +20,7 @@ namespace for3__96
         private void btnEkle_Click(object sender, EventArgs e)
         {
             int sayi = Convert.ToInt32(txtSayi.Text);
+            lbSayilar.Items.Clear();
 
             for (int i = 0; i < sayi; i++)
             {
